@@ -82,5 +82,41 @@ namespace gestao_alunos.Properties {
                 this["turma"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string sesdia {
+            get {
+                return ((string)(this["sesdia"]));
+            }
+            set {
+                this["sesdia"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string sesmes {
+            get {
+                return ((string)(this["sesmes"]));
+            }
+            set {
+                this["sesmes"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string sesano {
+            get {
+                return ((string)(this["sesano"]));
+            }
+            set {
+                this["sesano"] = value;
+            }
+        }
     }
 }

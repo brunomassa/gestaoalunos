@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using gestao_alunos.Properties;
 
 namespace gestao_alunos
 {
@@ -22,6 +23,9 @@ namespace gestao_alunos
         private void paginaprincipal_Load(object sender, EventArgs e)
         {
             timer1.Enabled = true;
+            label11.Text = Settings.Default.sesdia;
+            label12.Text = Settings.Default.sesmes;
+            label15.Text = Settings.Default.sesano;
         }
 
         private void timer1_Tick(object sender, EventArgs e)
