@@ -35,13 +35,13 @@
             this.ribbonPanel1 = new System.Windows.Forms.RibbonPanel();
             this.ribbonButton1 = new System.Windows.Forms.RibbonButton();
             this.ribbonTab2 = new System.Windows.Forms.RibbonTab();
-            this.ribbonTab3 = new System.Windows.Forms.RibbonTab();
-            this.ribbonPanel2 = new System.Windows.Forms.RibbonPanel();
-            this.ribbonButton2 = new System.Windows.Forms.RibbonButton();
             this.ribbonPanel3 = new System.Windows.Forms.RibbonPanel();
             this.ribbonButton3 = new System.Windows.Forms.RibbonButton();
             this.ribbonPanel4 = new System.Windows.Forms.RibbonPanel();
             this.ribbonButton4 = new System.Windows.Forms.RibbonButton();
+            this.ribbonTab3 = new System.Windows.Forms.RibbonTab();
+            this.ribbonPanel2 = new System.Windows.Forms.RibbonPanel();
+            this.ribbonButton2 = new System.Windows.Forms.RibbonButton();
             this.SuspendLayout();
             // 
             // ribbonUpDown1
@@ -102,24 +102,6 @@
             this.ribbonTab2.Text = "Remover/alterar";
             this.ribbonTab2.ToolTip = "Remover";
             // 
-            // ribbonTab3
-            // 
-            this.ribbonTab3.Panels.Add(this.ribbonPanel2);
-            this.ribbonTab3.Text = "Ver";
-            this.ribbonTab3.ToolTip = "Ver";
-            // 
-            // ribbonPanel2
-            // 
-            this.ribbonPanel2.Items.Add(this.ribbonButton2);
-            this.ribbonPanel2.Text = "";
-            // 
-            // ribbonButton2
-            // 
-            this.ribbonButton2.Image = ((System.Drawing.Image)(resources.GetObject("ribbonButton2.Image")));
-            this.ribbonButton2.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonButton2.SmallImage")));
-            this.ribbonButton2.Text = "Ver alunos";
-            this.ribbonButton2.Click += new System.EventHandler(this.ribbonButton2_Click);
-            // 
             // ribbonPanel3
             // 
             this.ribbonPanel3.Items.Add(this.ribbonButton3);
@@ -142,6 +124,24 @@
             this.ribbonButton4.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonButton4.SmallImage")));
             this.ribbonButton4.Text = "editar aluno";
             // 
+            // ribbonTab3
+            // 
+            this.ribbonTab3.Panels.Add(this.ribbonPanel2);
+            this.ribbonTab3.Text = "Ver";
+            this.ribbonTab3.ToolTip = "Ver";
+            // 
+            // ribbonPanel2
+            // 
+            this.ribbonPanel2.Items.Add(this.ribbonButton2);
+            this.ribbonPanel2.Text = "";
+            // 
+            // ribbonButton2
+            // 
+            this.ribbonButton2.Image = ((System.Drawing.Image)(resources.GetObject("ribbonButton2.Image")));
+            this.ribbonButton2.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonButton2.SmallImage")));
+            this.ribbonButton2.Text = "Ver alunos";
+            this.ribbonButton2.Click += new System.EventHandler(this.ribbonButton2_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -153,6 +153,7 @@
             this.IsMdiContainer = true;
             this.MaximizeBox = false;
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.WindowsDefaultBounds;
             this.Text = "gestao alunos V1.0";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
