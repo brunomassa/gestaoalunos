@@ -41,7 +41,7 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Design" />
     <Reference Include="System.Windows.Forms.Ribbon35">
-      <HintPath>..\..\..\..\..\Downloads\System.Windows.Forms.Ribbon35.dll</HintPath>
+      <HintPath>..\..\..\..\Downloads\System.Windows.Forms.Ribbon35.dll</HintPath>
     </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
