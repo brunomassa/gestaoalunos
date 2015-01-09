@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Threading;
 
 namespace gestao_alunos
 {
@@ -14,8 +15,15 @@ namespace gestao_alunos
     {
         public Form1()
         {
+            Thread str = new Thread(new ThreadStart(splash));
+            str.Start();
+            Thread.Sleep(10750);
             InitializeComponent();
-            
+            str.Abort();
+        }
+        public void splash()
+        {
+            Application.Run(new splash());
         }
 
         private void Form1_Load(object sender, EventArgs e)
