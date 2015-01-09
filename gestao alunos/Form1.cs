@@ -20,6 +20,10 @@ namespace gestao_alunos
         private void Form1_Load(object sender, EventArgs e)
         {
             WindowState = FormWindowState.Maximized;
+            paginaprincipal pcp = new paginaprincipal();
+            pcp.MdiParent = this;
+            pcp.WindowState = FormWindowState.Maximized;
+            pcp.Show();
         }
 
         private void ribbonButton1_Click(object sender, EventArgs e)
