@@ -149,7 +149,9 @@
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(966, 462);
             this.Controls.Add(this.ribbon1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.IsMdiContainer = true;
+            this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "gestao alunos V1.0";
             this.Load += new System.EventHandler(this.Form1_Load);
