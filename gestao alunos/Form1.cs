@@ -59,5 +59,16 @@ namespace gestao_alunos
             pcp.WindowState = FormWindowState.Maximized;
             pcp.Show();
         }
+
+        private void ribbonOrbMenuItem2_Click(object sender, EventArgs e)
+        {
+            var Sobre = new sobre();
+            Sobre.Show();
+        }
+
+        private void ribbonOrbMenuItem3_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
