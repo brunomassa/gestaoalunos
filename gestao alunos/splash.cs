@@ -18,13 +18,13 @@ namespace gestao_alunos
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            progressBar1.Increment(1);
-            label3.Text ="( " + Convert.ToString(progressBar1.Value) + "% )";
-            if (progressBar1.Value == 50)
+            amazingProgressBar1.Increment(1);
+            label3.Text = "( " + Convert.ToString(amazingProgressBar1.Value) + "% )";
+            if (amazingProgressBar1.Value == 50)
             {
                 label2.Text = "A Iniciar";
             }
-            else if (progressBar1.Value == 101)
+            else if (amazingProgressBar1.Value == 101)
             {
                 timer1.Stop();
                 
