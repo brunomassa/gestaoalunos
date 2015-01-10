@@ -22,6 +22,7 @@ namespace gestao_alunos
 
         private void paginaprincipal_Load(object sender, EventArgs e)
         {
+
             if (Settings.Default.tema == 0)
             {
                 this.BackColor = Color.White;
