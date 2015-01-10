@@ -56,7 +56,7 @@
             // 
             this.tempo.AutoSize = true;
             this.tempo.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tempo.Location = new System.Drawing.Point(1167, 676);
+            this.tempo.Location = new System.Drawing.Point(1139, 676);
             this.tempo.Name = "tempo";
             this.tempo.Size = new System.Drawing.Size(0, 25);
             this.tempo.TabIndex = 0;
@@ -70,7 +70,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(1249, 676);
+            this.label1.Location = new System.Drawing.Point(1221, 676);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(0, 25);
             this.label1.TabIndex = 1;
