@@ -51,5 +51,13 @@ namespace gestao_alunos
             als.WindowState = FormWindowState.Maximized;
             als.Show();
         }
+
+        private void ribbonOrbMenuItem1_Click(object sender, EventArgs e)
+        {
+            paginaprincipal pcp = new paginaprincipal();
+            pcp.MdiParent = this;
+            pcp.WindowState = FormWindowState.Maximized;
+            pcp.Show();
+        }
     }
 }
