@@ -70,5 +70,13 @@ namespace gestao_alunos
         {
             Application.Exit();
         }
+
+        private void ribbonButton3_Click(object sender, EventArgs e)
+        {
+            remover remoaluno = new remover();
+            remoaluno.MdiParent = this;
+            remoaluno.WindowState = FormWindowState.Maximized;
+            remoaluno.Show();
+        }
     }
 }

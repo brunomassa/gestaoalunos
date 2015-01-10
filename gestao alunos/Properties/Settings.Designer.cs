@@ -118,5 +118,77 @@ namespace gestao_alunos.Properties {
                 this["sesano"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string remonome {
+            get {
+                return ((string)(this["remonome"]));
+            }
+            set {
+                this["remonome"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string remoidade {
+            get {
+                return ((string)(this["remoidade"]));
+            }
+            set {
+                this["remoidade"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string remoano {
+            get {
+                return ((string)(this["remoano"]));
+            }
+            set {
+                this["remoano"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string remonum {
+            get {
+                return ((string)(this["remonum"]));
+            }
+            set {
+                this["remonum"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string remoturma {
+            get {
+                return ((string)(this["remoturma"]));
+            }
+            set {
+                this["remoturma"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string setting {
+            get {
+                return ((string)(this["setting"]));
+            }
+            set {
+                this["setting"] = value;
+            }
+        }
     }
 }
