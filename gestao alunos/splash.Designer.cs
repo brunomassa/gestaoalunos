@@ -90,11 +90,11 @@
             this.amazingProgressBar1.Gradient = GAW.AmazingProgressBar.GradientType.Rows;
             this.amazingProgressBar1.GradientEndColor = System.Drawing.Color.DodgerBlue;
             this.amazingProgressBar1.GradientStartColor = System.Drawing.Color.DodgerBlue;
-            this.amazingProgressBar1.Location = new System.Drawing.Point(15, 164);
+            this.amazingProgressBar1.Location = new System.Drawing.Point(12, 166);
             this.amazingProgressBar1.MazeStyle = GAW.AmazingProgressBar.MazeStyleType.SingleRight;
             this.amazingProgressBar1.Name = "amazingProgressBar1";
             this.amazingProgressBar1.RowCount = 10;
-            this.amazingProgressBar1.Size = new System.Drawing.Size(238, 23);
+            this.amazingProgressBar1.Size = new System.Drawing.Size(248, 24);
             this.amazingProgressBar1.TabIndex = 5;
             this.amazingProgressBar1.UnusedColor = System.Drawing.SystemColors.Highlight;
             this.amazingProgressBar1.WallColor = System.Drawing.Color.Transparent;
