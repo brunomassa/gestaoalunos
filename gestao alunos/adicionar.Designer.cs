@@ -162,7 +162,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(98, 51);
             this.button1.TabIndex = 10;
-            this.button1.Text = "Adicionar";
+            this.button1.Text = "Adicionar aluno";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // comboBox2
