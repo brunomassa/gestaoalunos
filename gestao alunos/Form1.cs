@@ -24,7 +24,7 @@ namespace gestao_alunos
         }
         public void splash()
         {
-            Application.Run(new splash());
+                Application.Run(new splash());
         }
 
         private void Form1_Load(object sender, EventArgs e)
