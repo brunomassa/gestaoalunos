@@ -38,7 +38,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="AmazingProgressBar">
-      <HintPath>..\..\..\..\Desktop\progress\AmazingProgressBar.dll</HintPath>
+      <HintPath>..\..\..\..\Downloads\AmazingProgressBar.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
