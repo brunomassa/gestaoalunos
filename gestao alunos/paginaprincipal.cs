@@ -23,8 +23,12 @@ namespace gestao_alunos
         private void paginaprincipal_Load(object sender, EventArgs e)
         {
             timer1.Enabled = true;
+            Settings.Default["sesdia"] = Convert.ToString(DateTime.UtcNow.Day);
+            Settings.Default["sesmes"] = Convert.ToString(DateTime.UtcNow.Month);
+            Settings.Default["sesano"] = Convert.ToString(DateTime.UtcNow.Year);
+            Settings.Default.Save();
             label11.Text = Settings.Default.sesdia;
-            label12.Text = Settings.Default.sesmes;
+            label13.Text = Settings.Default.sesmes;
             label15.Text = Settings.Default.sesano;
         }
 
