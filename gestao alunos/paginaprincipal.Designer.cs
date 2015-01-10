@@ -244,6 +244,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.tempo);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "paginaprincipal";
             this.Text = "paginaprincipal";
             this.Load += new System.EventHandler(this.paginaprincipal_Load);
