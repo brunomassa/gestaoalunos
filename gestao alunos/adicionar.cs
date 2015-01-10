@@ -19,6 +19,34 @@ namespace gestao_alunos
 
         private void adicionar_Load(object sender, EventArgs e)
         {
+            if (Settings.Default.tema == 0)
+            {
+                this.BackColor = Color.White;
+                label1.BackColor = Color.White;
+                label2.BackColor = Color.White;
+                label3.BackColor = Color.White;
+                label4.BackColor = Color.White;
+                label5.BackColor = Color.White;
+                label1.ForeColor = Color.Black;
+                label2.ForeColor = Color.Black;
+                label3.ForeColor = Color.Black;
+                label4.ForeColor = Color.Black;
+                label5.ForeColor = Color.Black;
+            }
+            if (Settings.Default.tema == 1)
+            {
+                this.BackColor = Color.Black;
+                label1.BackColor = Color.Black;
+                label2.BackColor = Color.Black;
+                label3.BackColor = Color.Black;
+                label4.BackColor = Color.Black;
+                label5.BackColor = Color.Black;
+                label1.ForeColor = Color.White;
+                label2.ForeColor = Color.White;
+                label3.ForeColor = Color.White;
+                label4.ForeColor = Color.White;
+                label5.ForeColor = Color.White;
+            }
             comboBox1.Items.Add("10");
             comboBox1.Items.Add("11");
             comboBox1.Items.Add("12");

@@ -49,6 +49,11 @@
             this.ribbonSeparator1 = new System.Windows.Forms.RibbonSeparator();
             this.ribbonSeparator2 = new System.Windows.Forms.RibbonSeparator();
             this.ribbonSeparator4 = new System.Windows.Forms.RibbonSeparator();
+            this.ribbonTab4 = new System.Windows.Forms.RibbonTab();
+            this.ribbonPanel5 = new System.Windows.Forms.RibbonPanel();
+            this.ribbonPanel6 = new System.Windows.Forms.RibbonPanel();
+            this.ribbonButton5 = new System.Windows.Forms.RibbonButton();
+            this.ribbonButton6 = new System.Windows.Forms.RibbonButton();
             this.SuspendLayout();
             // 
             // ribbonUpDown1
@@ -69,8 +74,9 @@
             this.ribbon1.OrbDropDown.BorderRoundness = 8;
             this.ribbon1.OrbDropDown.Location = new System.Drawing.Point(0, 0);
             this.ribbon1.OrbDropDown.MenuItems.Add(this.ribbonOrbMenuItem1);
+            this.ribbon1.OrbDropDown.MenuItems.Add(this.ribbonSeparator4);
             this.ribbon1.OrbDropDown.Name = "";
-            this.ribbon1.OrbDropDown.Size = new System.Drawing.Size(527, 116);
+            this.ribbon1.OrbDropDown.Size = new System.Drawing.Size(527, 119);
             this.ribbon1.OrbDropDown.TabIndex = 0;
             this.ribbon1.OrbImage = null;
             this.ribbon1.OrbStyle = System.Windows.Forms.RibbonOrbStyle.Office_2013;
@@ -81,6 +87,7 @@
             this.ribbon1.Tabs.Add(this.ribbonTab1);
             this.ribbon1.Tabs.Add(this.ribbonTab2);
             this.ribbon1.Tabs.Add(this.ribbonTab3);
+            this.ribbon1.Tabs.Add(this.ribbonTab4);
             this.ribbon1.TabsMargin = new System.Windows.Forms.Padding(12, 26, 20, 0);
             this.ribbon1.Text = "ribbon1";
             this.ribbon1.ThemeColor = System.Windows.Forms.RibbonTheme.Black;
@@ -178,6 +185,36 @@
             this.ribbonOrbMenuItem3.Text = "Sair";
             this.ribbonOrbMenuItem3.Click += new System.EventHandler(this.ribbonOrbMenuItem3_Click);
             // 
+            // ribbonTab4
+            // 
+            this.ribbonTab4.Panels.Add(this.ribbonPanel5);
+            this.ribbonTab4.Panels.Add(this.ribbonPanel6);
+            this.ribbonTab4.Text = "Temas";
+            // 
+            // ribbonPanel5
+            // 
+            this.ribbonPanel5.Items.Add(this.ribbonButton5);
+            this.ribbonPanel5.Text = "";
+            // 
+            // ribbonPanel6
+            // 
+            this.ribbonPanel6.Items.Add(this.ribbonButton6);
+            this.ribbonPanel6.Text = "";
+            // 
+            // ribbonButton5
+            // 
+            this.ribbonButton5.Image = ((System.Drawing.Image)(resources.GetObject("ribbonButton5.Image")));
+            this.ribbonButton5.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonButton5.SmallImage")));
+            this.ribbonButton5.Text = "light";
+            this.ribbonButton5.Click += new System.EventHandler(this.ribbonButton5_Click);
+            // 
+            // ribbonButton6
+            // 
+            this.ribbonButton6.Image = ((System.Drawing.Image)(resources.GetObject("ribbonButton6.Image")));
+            this.ribbonButton6.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonButton6.SmallImage")));
+            this.ribbonButton6.Text = "Dark";
+            this.ribbonButton6.Click += new System.EventHandler(this.ribbonButton6_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -219,6 +256,11 @@
         private System.Windows.Forms.RibbonSeparator ribbonSeparator2;
         private System.Windows.Forms.RibbonSeparator ribbonSeparator3;
         private System.Windows.Forms.RibbonSeparator ribbonSeparator4;
+        private System.Windows.Forms.RibbonTab ribbonTab4;
+        private System.Windows.Forms.RibbonPanel ribbonPanel5;
+        private System.Windows.Forms.RibbonButton ribbonButton5;
+        private System.Windows.Forms.RibbonPanel ribbonPanel6;
+        private System.Windows.Forms.RibbonButton ribbonButton6;
     }
 }
 

@@ -238,5 +238,29 @@ namespace gestao_alunos.Properties {
                 this["editturma"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public int tema {
+            get {
+                return ((int)(this["tema"]));
+            }
+            set {
+                this["tema"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public int janela {
+            get {
+                return ((int)(this["janela"]));
+            }
+            set {
+                this["janela"] = value;
+            }
+        }
     }
 }

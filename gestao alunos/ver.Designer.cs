@@ -49,6 +49,7 @@
             this.Controls.Add(this.dataGridView1);
             this.Name = "ver";
             this.Text = "ver alunos";
+            this.Load += new System.EventHandler(this.ver_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
