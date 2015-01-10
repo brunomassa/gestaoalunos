@@ -123,7 +123,7 @@
             this.ribbonTab2.Panels.Add(this.ribbonPanel3);
             this.ribbonTab2.Panels.Add(this.ribbonPanel4);
             this.ribbonTab2.Text = "Remover/alterar";
-            this.ribbonTab2.ToolTip = "Remover";
+            this.ribbonTab2.ToolTip = "Remover/alterar";
             // 
             // ribbonPanel3
             // 
@@ -190,6 +190,7 @@
             this.ribbonTab4.Panels.Add(this.ribbonPanel5);
             this.ribbonTab4.Panels.Add(this.ribbonPanel6);
             this.ribbonTab4.Text = "Temas";
+            this.ribbonTab4.ToolTip = "Temas";
             // 
             // ribbonPanel5
             // 
