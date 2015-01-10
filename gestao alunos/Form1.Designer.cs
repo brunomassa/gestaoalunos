@@ -140,6 +140,7 @@
             this.ribbonButton4.Image = ((System.Drawing.Image)(resources.GetObject("ribbonButton4.Image")));
             this.ribbonButton4.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonButton4.SmallImage")));
             this.ribbonButton4.Text = "editar aluno";
+            this.ribbonButton4.Click += new System.EventHandler(this.ribbonButton4_Click);
             // 
             // ribbonTab3
             // 

@@ -182,12 +182,60 @@ namespace gestao_alunos.Properties {
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("")]
-        public string setting {
+        public string editnome {
             get {
-                return ((string)(this["setting"]));
+                return ((string)(this["editnome"]));
             }
             set {
-                this["setting"] = value;
+                this["editnome"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string editidade {
+            get {
+                return ((string)(this["editidade"]));
+            }
+            set {
+                this["editidade"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string editano {
+            get {
+                return ((string)(this["editano"]));
+            }
+            set {
+                this["editano"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string editnum {
+            get {
+                return ((string)(this["editnum"]));
+            }
+            set {
+                this["editnum"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string editturma {
+            get {
+                return ((string)(this["editturma"]));
+            }
+            set {
+                this["editturma"] = value;
             }
         }
     }

@@ -41,7 +41,19 @@
     <Setting Name="remoturma" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
     </Setting>
-    <Setting Name="setting" Type="System.String" Scope="User">
+    <Setting Name="editnome" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="editidade" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="editano" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="editnum" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="editturma" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
     </Setting>
   </Settings>

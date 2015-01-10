@@ -59,6 +59,12 @@
     <Compile Include="adicionar.Designer.cs">
       <DependentUpon>adicionar.cs</DependentUpon>
     </Compile>
+    <Compile Include="editar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editar.Designer.cs">
+      <DependentUpon>editar.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -99,6 +105,9 @@
     </Compile>
     <EmbeddedResource Include="adicionar.resx">
       <DependentUpon>adicionar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editar.resx">
+      <DependentUpon>editar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

@@ -78,5 +78,13 @@ namespace gestao_alunos
             remoaluno.WindowState = FormWindowState.Maximized;
             remoaluno.Show();
         }
+
+        private void ribbonButton4_Click(object sender, EventArgs e)
+        {
+            editar edit = new editar();
+            edit.MdiParent = this;
+            edit.WindowState = FormWindowState.Maximized;
+            edit.Show();
+        }
     }
 }
