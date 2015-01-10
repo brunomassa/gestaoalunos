@@ -96,7 +96,7 @@
             this.amazingProgressBar1.RowCount = 10;
             this.amazingProgressBar1.Size = new System.Drawing.Size(238, 23);
             this.amazingProgressBar1.TabIndex = 5;
-            this.amazingProgressBar1.UnusedColor = System.Drawing.SystemColors.Control;
+            this.amazingProgressBar1.UnusedColor = System.Drawing.SystemColors.Highlight;
             this.amazingProgressBar1.WallColor = System.Drawing.Color.Transparent;
             this.amazingProgressBar1.WallSize = 1;
             // 
