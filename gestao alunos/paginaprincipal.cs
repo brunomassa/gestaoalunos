@@ -22,7 +22,7 @@ namespace gestao_alunos
 
         private void paginaprincipal_Load(object sender, EventArgs e)
         {
-
+            //tema de com branca
             if (Settings.Default.tema == 0)
             {
                 this.BackColor = Color.White;
@@ -59,6 +59,7 @@ namespace gestao_alunos
                 label15.ForeColor = Color.Black;
                 tempo.ForeColor = Color.Black;
             }
+            //tema de cor preta
             if (Settings.Default.tema == 1)
             {
                 this.BackColor = Color.Black;
@@ -95,7 +96,9 @@ namespace gestao_alunos
                 label15.ForeColor = Color.White;
                 tempo.ForeColor = Color.White;
             }
+            //timer que inicia o relogio
             timer1.Enabled = true;
+            //ultima sessao iniciada
             Settings.Default["sesdia"] = Convert.ToString(DateTime.UtcNow.Day);
             Settings.Default["sesmes"] = Convert.ToString(DateTime.UtcNow.Month);
             Settings.Default["sesano"] = Convert.ToString(DateTime.UtcNow.Year);
@@ -107,6 +110,7 @@ namespace gestao_alunos
 
         private void timer1_Tick(object sender, EventArgs e)
         {
+            //relogio
             hr = DateTime.UtcNow.Hour;
             min = DateTime.UtcNow.Minute;
             sec = DateTime.UtcNow.Second;

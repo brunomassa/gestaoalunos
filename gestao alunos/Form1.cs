@@ -16,6 +16,7 @@ namespace gestao_alunos
     {
         public Form1()
         {
+            //splash screen
             Thread str = new Thread(new ThreadStart(splash));
             str.Start();
             Thread.Sleep(10750);
@@ -24,11 +25,13 @@ namespace gestao_alunos
         }
         public void splash()
         {
+            //inicia a splash screen
                 Application.Run(new splash());
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            //janela principal
             Settings.Default.janela = 0;
             WindowState = FormWindowState.Maximized;
             paginaprincipal pcp = new paginaprincipal();
@@ -39,6 +42,7 @@ namespace gestao_alunos
 
         private void ribbonButton1_Click(object sender, EventArgs e)
         {
+            //janela adicionar aluno
             Settings.Default.janela = 1;
             adicionar adaluno = new adicionar();
             adaluno.MdiParent = this;
@@ -48,6 +52,7 @@ namespace gestao_alunos
 
         private void ribbonButton2_Click(object sender, EventArgs e)
         {
+            //janela ver alunos
             Settings.Default.janela = 4;
             ver als = new ver();
             als.MdiParent = this;
@@ -57,6 +62,7 @@ namespace gestao_alunos
 
         private void ribbonOrbMenuItem1_Click(object sender, EventArgs e)
         {
+            //botao voltar para o inicio
             Settings.Default.janela = 0;
             paginaprincipal pcp = new paginaprincipal();
             pcp.MdiParent = this;
@@ -66,17 +72,20 @@ namespace gestao_alunos
 
         private void ribbonOrbMenuItem2_Click(object sender, EventArgs e)
         {
+            //aboutBox
             var Sobre = new sobre();
             Sobre.Show();
         }
 
         private void ribbonOrbMenuItem3_Click(object sender, EventArgs e)
         {
+            //botao sair
             Application.Exit();
         }
 
         private void ribbonButton3_Click(object sender, EventArgs e)
         {
+            //janela remover
             Settings.Default.janela = 2;
             remover remoaluno = new remover();
             remoaluno.MdiParent = this;
@@ -86,6 +95,7 @@ namespace gestao_alunos
 
         private void ribbonButton4_Click(object sender, EventArgs e)
         {
+            //janela editar alunos
             Settings.Default.janela = 3;
             editar edit = new editar();
             edit.MdiParent = this;
@@ -95,6 +105,7 @@ namespace gestao_alunos
 
         private void ribbonButton5_Click(object sender, EventArgs e)
         {
+            //botao tema branco
             Settings.Default["tema"] = 0;
             Settings.Default.Save();
             if (Settings.Default.janela == 0)
@@ -142,6 +153,7 @@ namespace gestao_alunos
 
         private void ribbonButton6_Click(object sender, EventArgs e)
         {
+            //botao tema preto
             Settings.Default["tema"] = 1;
             Settings.Default.Save();
             if (Settings.Default.janela == 0)

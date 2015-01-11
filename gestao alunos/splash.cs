@@ -18,6 +18,7 @@ namespace gestao_alunos
 
         private void timer1_Tick(object sender, EventArgs e)
         {
+            //progressBar modificada
             amazingProgressBar1.Increment(1);
             label3.Text = "( " + Convert.ToString(amazingProgressBar1.Value) + "% )";
             if (amazingProgressBar1.Value == 50)
