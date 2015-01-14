@@ -53,6 +53,11 @@
             this.label9 = new System.Windows.Forms.Label();
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
+            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.comboBox4 = new System.Windows.Forms.ComboBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.comboBox5 = new System.Windows.Forms.ComboBox();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -267,12 +272,62 @@
             this.label10.TabIndex = 21;
             this.label10.Text = "Nacionalidade";
             // 
+            // comboBox3
+            // 
+            this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Location = new System.Drawing.Point(624, 74);
+            this.comboBox3.Name = "comboBox3";
+            this.comboBox3.Size = new System.Drawing.Size(132, 21);
+            this.comboBox3.TabIndex = 22;
+            this.comboBox3.Text = "Português";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(632, 98);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(75, 13);
+            this.label11.TabIndex = 23;
+            this.label11.Text = "Nacionalidade";
+            // 
+            // comboBox4
+            // 
+            this.comboBox4.FormattingEnabled = true;
+            this.comboBox4.Location = new System.Drawing.Point(624, 111);
+            this.comboBox4.Name = "comboBox4";
+            this.comboBox4.Size = new System.Drawing.Size(132, 21);
+            this.comboBox4.TabIndex = 24;
+            this.comboBox4.Text = "Português";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(635, 135);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(75, 13);
+            this.label12.TabIndex = 25;
+            this.label12.Text = "Nacionalidade";
+            // 
+            // comboBox5
+            // 
+            this.comboBox5.FormattingEnabled = true;
+            this.comboBox5.Location = new System.Drawing.Point(624, 150);
+            this.comboBox5.Name = "comboBox5";
+            this.comboBox5.Size = new System.Drawing.Size(132, 21);
+            this.comboBox5.TabIndex = 26;
+            this.comboBox5.Text = "Português";
+            // 
             // adicionar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(940, 483);
+            this.Controls.Add(this.comboBox5);
+            this.Controls.Add(this.label12);
+            this.Controls.Add(this.comboBox4);
+            this.Controls.Add(this.label11);
+            this.Controls.Add(this.comboBox3);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.textBox7);
             this.Controls.Add(this.label9);
@@ -333,5 +388,10 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TextBox textBox7;
         private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.ComboBox comboBox4;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.ComboBox comboBox5;
     }
 }

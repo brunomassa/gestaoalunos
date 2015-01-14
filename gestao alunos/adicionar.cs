@@ -19,6 +19,18 @@ namespace gestao_alunos
 
         private void adicionar_Load(object sender, EventArgs e)
         {
+            comboBox3.Items.Add("Português");
+            comboBox3.Items.Add("Espanhol");
+            comboBox3.Items.Add("Françês");
+            comboBox3.Items.Add("Italiano");
+            comboBox3.Items.Add("Alemão");
+            comboBox3.Items.Add("outra");
+            comboBox4.Items.Add("Português");
+            comboBox4.Items.Add("Espanhol");
+            comboBox4.Items.Add("Françês");
+            comboBox4.Items.Add("Italiano");
+            comboBox4.Items.Add("Alemão");
+            comboBox4.Items.Add("outra");
             if (Settings.Default.tema == 0)
             {
                 this.BackColor = Color.White;
