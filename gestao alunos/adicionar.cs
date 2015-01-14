@@ -31,6 +31,12 @@ namespace gestao_alunos
             comboBox4.Items.Add("Italiano");
             comboBox4.Items.Add("Alemão");
             comboBox4.Items.Add("outra");
+            comboBox5.Items.Add("Português");
+            comboBox5.Items.Add("Espanhol");
+            comboBox5.Items.Add("Françês");
+            comboBox5.Items.Add("Italiano");
+            comboBox5.Items.Add("Alemão");
+            comboBox5.Items.Add("outra");
             if (Settings.Default.tema == 0)
             {
                 this.BackColor = Color.White;
