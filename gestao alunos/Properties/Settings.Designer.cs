@@ -262,5 +262,53 @@ namespace gestao_alunos.Properties {
                 this["janela"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string nompai {
+            get {
+                return ((string)(this["nompai"]));
+            }
+            set {
+                this["nompai"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string nommae {
+            get {
+                return ((string)(this["nommae"]));
+            }
+            set {
+                this["nommae"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string idadepai {
+            get {
+                return ((string)(this["idadepai"]));
+            }
+            set {
+                this["idadepai"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string idademae {
+            get {
+                return ((string)(this["idademae"]));
+            }
+            set {
+                this["idademae"] = value;
+            }
+        }
     }
 }

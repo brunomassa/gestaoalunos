@@ -25,18 +25,11 @@ namespace gestao_alunos
             comboBox3.Items.Add("Italiano");
             comboBox3.Items.Add("Alemão");
             comboBox3.Items.Add("outra");
-            comboBox4.Items.Add("Português");
-            comboBox4.Items.Add("Espanhol");
-            comboBox4.Items.Add("Françês");
-            comboBox4.Items.Add("Italiano");
-            comboBox4.Items.Add("Alemão");
-            comboBox4.Items.Add("outra");
-            comboBox5.Items.Add("Português");
-            comboBox5.Items.Add("Espanhol");
-            comboBox5.Items.Add("Françês");
-            comboBox5.Items.Add("Italiano");
-            comboBox5.Items.Add("Alemão");
-            comboBox5.Items.Add("outra");
+            comboBox4.Items.Add("sexo");
+            comboBox4.Items.Add("Masculino");
+            comboBox4.Items.Add("Feminino");
+            
+            
             if (Settings.Default.tema == 0)
             {
                 this.BackColor = Color.White;
@@ -82,6 +75,10 @@ namespace gestao_alunos
             Settings.Default["ano"] = comboBox1.Text;
             Settings.Default["numero"] = textBox3.Text;
             Settings.Default["turma"] = comboBox2.Text;
+            Settings.Default["nompai"] = textBox4.Text;
+            Settings.Default["nommae"] = textBox5.Text;
+            Settings.Default["idadepai"] = textBox6.Text;
+            Settings.Default["idademae"] = textBox7.Text;
             Settings.Default.Save();
             MessageBox.Show("Dados guardados com sucesso!", "Guardar");
         }
@@ -93,6 +90,10 @@ namespace gestao_alunos
             comboBox1.Text = Settings.Default.ano;
             textBox3.Text = Settings.Default.numero;
             comboBox2.Text = Settings.Default.turma;
+            textBox4.Text = Settings.Default.nompai;
+            textBox5.Text = Settings.Default.nommae;
+            textBox6.Text = Settings.Default.idadepai;
+            textBox7.Text = Settings.Default.idademae;
             MessageBox.Show("Dados carregados com sucesso!", "Carregar");
         }
 
