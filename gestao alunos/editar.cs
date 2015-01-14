@@ -8,10 +8,15 @@ using System.Text;
 using System.Windows.Forms;
 using gestao_alunos.Properties;
 
+using MySql.Data.MySqlClient;
+using MySql.Data.Common;
+using MySql.Data.Types;
+
 namespace gestao_alunos
 {
     public partial class editar : Form
     {
+        int edit = 0;
         public editar()
         {
             InitializeComponent();
@@ -76,6 +81,54 @@ namespace gestao_alunos
             comboBox2.Items.Add("E");
             comboBox2.Items.Add("CSA");
             comboBox2.Items.Add("CSB");
+            comboBox3.Items.Add("sexo");
+            comboBox3.Items.Add("Masculino");
+            comboBox3.Items.Add("femenino");
+            comboBox4.Items.Add("Português");
+            comboBox4.Items.Add("Espanhol");
+            comboBox4.Items.Add("Françês");
+            comboBox4.Items.Add("Italiano");
+            comboBox4.Items.Add("Alemão");
+            comboBox4.Items.Add("outra");
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                string conexao = "datasource=localhost;port=3306;username=root;password=";
+                MySqlConnection con = new MySqlConnection(conexao);
+                MySqlCommand cmd = new MySqlCommand("select*from bdgestaoalunos.alunos", con);
+
+                con.Open();
+                MySqlDataAdapter adpter = new MySqlDataAdapter();
+                adpter.SelectCommand = cmd;
+                DataTable dtt = new DataTable();
+                adpter.Fill(dtt);
+                BindingSource bins = new BindingSource();
+                bins.DataSource = dtt;
+                dataGridView1.DataSource = bins;
+                adpter.Update(dtt);
+                con.Close();
+                edit = 1;
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Ocorreu um erro:\n" + ex, "erro");
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (edit == 0)
+            {
+                MessageBox.Show("Primeiro ter de ver o aluno que pretende editar", "Editar");
+            }
+            else if (edit == 1)
+            {
+
+            }
         }
     }
 }
