@@ -110,7 +110,7 @@ namespace gestao_alunos
             {
                 string conexao = "datasource=localhost;port=3306;username=root;password=";
                 MySqlConnection con = new MySqlConnection(conexao);
-                MySqlCommand cmd=new MySqlCommand("insert into bdgestaoalunos.alunos(nomealuno,idade,nacionalidade,sexo,codigopostal,ano,numero,turma,nomedopai,idadepai,nomedamae,idademae) values('"+textBox1.Text+"','"+textBox2.Text+"','"+comboBox3.Text+"','"+comboBox4.Text+"','"+textBox8.Text+"-"+textBox9.Text+"','"+comboBox1.Text+"','"+textBox3.Text+"','"+comboBox2.Text+"','"+textBox4.Text+"','"+textBox6.Text+"','"+textBox5.Text+"','"+textBox7.Text+"')",con);
+                MySqlCommand cmd=new MySqlCommand("insert into bdgestaoalunos.alunos(nomealuno,idade,nacionalidade,sexo,codigopostal,ano,numero,turma,nomepai,idadepai,nomemae,idademae) values('"+textBox1.Text+"','"+textBox2.Text+"','"+comboBox3.Text+"','"+comboBox4.Text+"','"+textBox8.Text+"-"+textBox9.Text+"','"+comboBox1.Text+"','"+textBox3.Text+"','"+comboBox2.Text+"','"+textBox4.Text+"','"+textBox6.Text+"','"+textBox5.Text+"','"+textBox7.Text+"')",con);
                 con.Open();
                 cmd.ExecuteNonQuery();
                 con.Close();
